@@ -4,7 +4,7 @@ import { BiAddToQueue } from "react-icons/bi";
 import { BASE_URL } from "../App";
 
 
-const CreateUsermodal = ({setUsers}) => {
+const CreateUserModal = ({setUsers}) => {
   const { isOpen, onOpen, onClose } = useDisclosure()
   const [isLoading, setisLoading] = useState(false);
   const [inputs, setInputs] = useState({
@@ -136,4 +136,4 @@ const CreateUsermodal = ({setUsers}) => {
   </>
 }
 
-export default CreateUsermodal
+export default CreateUserModal
