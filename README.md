@@ -1,4 +1,4 @@
-# React-Python-Best-Friends-WebApp
+# React Python Best Friends WebApp
 
 ## Project Overview
 
